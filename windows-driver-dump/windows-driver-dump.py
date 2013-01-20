@@ -9,6 +9,7 @@ kernel32 =  windll.kernel32
 psapi = windll.psapi
 
 class drivers():
+    # Rather simplistic but effective way of getting the list of all drivers on in windows
     def getAllDeviceDrivers(self):
         lpcbNeeded =          c_ulong(0)
         empty_init_array      = c_ulong * 1024
