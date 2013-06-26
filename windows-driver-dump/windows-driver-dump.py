@@ -1,5 +1,4 @@
 print "[+] Windows Driver Dump"
-print "[+] contact : If you know me then give me a shout"
 print "[+] usage: ./windows-driver-dump.py"
 print "\n"
 
